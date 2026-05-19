@@ -1,8 +1,10 @@
-echo "google-play-scraper" > requirements.txt
-echo "pandas" >> requirements.txt
-echo "numpy" >> requirements.txt
-echo "textblob" >> requirements.txt
-echo "nltk" >> requirements.txt
-echo "scikit-learn" >> requirements.txt
-echo "matplotlib" >> requirements.txt
-echo "seaborn" >> requirements.txt
+@"
+google-play-scraper
+pandas
+numpy
+textblob
+nltk
+scikit-learn
+matplotlib
+seaborn
+"@ | Out-File -FilePath requirements.txt -Encoding utf8
