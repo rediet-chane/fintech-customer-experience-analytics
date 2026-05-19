@@ -1,0 +1,6 @@
+echo "data/" > .gitignore
+echo "*.csv" >> .gitignore
+echo "*.db" >> .gitignore
+echo "venv/" >> .gitignore
+echo "__pycache__/" >> .gitignore
+echo ".env" >> .gitignore
